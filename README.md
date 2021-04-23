@@ -1,5 +1,5 @@
 # IT163_DevTeam2
-Project workspace for the amazing website project of Jordan, Jenifer, and Megan for IT163 (Web Design 3)
+Project workspace for the amazing website project of Jordan, Kelly, and Megan for IT163 (Web Design 3)
 
 
 ## DUE DATE: June 13th
@@ -8,5 +8,6 @@ Project workspace for the amazing website project of Jordan, Jenifer, and Megan 
 
 To Answer before next meeting:
   1) What type of project are we doing? eCommerce or Org/Club Site?
+      - Org/Club Site!
  
   2) What is the topic/content of our site?
