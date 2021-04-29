@@ -11,3 +11,4 @@ To Answer before next meeting:
       - Org/Club Site!
  
   2) What is the topic/content of our site?
+      - Seattle Tech4Good Revamp
