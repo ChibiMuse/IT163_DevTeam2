@@ -4,7 +4,8 @@ Project workspace for the amazing website project of Jordan, Kelly, and Megan fo
 
 ## DUE DATE: June 13th
 
-## NEXT GROUP MEETING: 4/19
+## NEXT GROUP MEETING: 5/2 @ 11:00 AM
+Main Group Meetings every Sunday at 11 and during class on Wednesday from 5 to 6.
 
 To Answer before next meeting:
   1) What type of project are we doing? eCommerce or Org/Club Site?
