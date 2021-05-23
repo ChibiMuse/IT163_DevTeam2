@@ -1,6 +1,6 @@
 # Meeting Notes 5/23/2021
 
-##Attendance:
+## Attendance:
 Megan, Kelly, Jordan
 
 
@@ -21,7 +21,7 @@ Finished our pages.
 
 Wednesday: Meet to go over where to put our files, how to organize them. Go over requirements for Final project. Add needed features to Monday.com as needed.
 
-##TO DOs:
+## TO DOs:
 - Jordan: Events Page
 - Kelly: Main Page & Contact Form
 - Megan: PM Report, Backend File Set-up and Events Page
