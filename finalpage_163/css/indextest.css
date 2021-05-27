@@ -1,0 +1,158 @@
+
+
+body {
+    background-color: rgb(243, 247, 240);
+}
+
+
+header  {
+    border: 12px rgb(6, 18, 187);
+}
+
+div.container {
+    border:rgb(116, 255, 9);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 10px;
+}
+   
+section     {
+    background-color: rosybrown;
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+}
+
+
+ .state {
+    border:rgb(116, 255, 9) 12px;
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    background: rgb(255, 133, 46);
+}
+ 
+.right   {
+    display: grid;
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    background: seagreen;
+}
+
+main    {
+    background-color: rosybrown;
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 3 / 5;
+}
+
+.who   {
+    padding: 20px;
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.what   {
+    padding: 20px;
+    display: grid;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.how   {
+    padding: 20px;
+    display: grid;
+    grid-column:  3 / 4;
+    grid-row: 3 / 4;
+}
+
+.bar {
+    display: grid;
+    grid-column: 1 / 5;
+    grid-row: 5 / 6;
+}
+
+footer {
+    border: rgb(19, 240, 30);
+    display: grid;
+    grid-row: 4 / 5;
+    grid-column: 1  / 5;
+    }
+
+
+/* START RESPONSIVE FOR IMGS/*
+
+ /* extra large screens */
+
+
+       
+/* DESKTOP */
+@media all and (max-width: 2560px)   {
+         
+         img.partdesktop {
+           width: 50%;
+           justify-items: center;
+          }
+
+         .bardesk {
+                width: 100%;
+                justify-items: center;
+               }
+        
+          .parttablet, .bartablet, .partphone, .barphone  {
+             display: none;
+          }
+    
+       /* TABLET RESPONSE*/
+   
+/*TABLET*/
+@media all and (max-width: 920px) and (min-width: 1024px) {
+       
+        .parttablet {
+            width: 50%;
+            justify-items: center;
+            }
+
+        .bartablet {
+            width: 100%;
+            justify-items: center;
+            }
+       
+       .partdesktop, .bardesk, .partphone, .barphone {
+             display: none;
+          } 
+       
+           TO HIDE BUTTONS AND SHOW HAMBURGER
+          nav {
+           display: none;
+         }
+         
+        }
+
+          /* PHONE RESPONSE */
+            @media all and (max-width: 420px) 
+          
+        {
+
+         .partphone {
+                 width: 100%;
+                 justify-items: center;
+          }
+          
+          .barphone {
+            width: 100%;
+            justify-items: center;
+            }
+       
+       
+          .parttablet, .partdesktop, .bardesk, .tablet {
+               display: none;
+            }  
+           }
+       
+               /* TO HIDE BUTTONS AND SHOW HAMBURGER */
+        nav {
+           display: none;
+         }
+        }
