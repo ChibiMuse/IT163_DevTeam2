@@ -2,11 +2,12 @@
 
 </div>
 <footer>
-  <p>TBD<a href="contact.php" target="_blank"> Contact US</a><small>&copy; 2021-<?=date('Y')?><a href="mailto:1306homebase@gmail.com">All Rights Reserved</a></p>
+
+    <!-- getting error on a p tag "End tag p seen, but there were open elements" Need to find -->
+      <p>TBD<a href="contact.php" target="_blank"> Contact US</a><small>&copy; 2021-<?=date('Y')?><a href="mailto:1306homebase@gmail.com">All Rights Reserved</a></small></p>
 
 </footer>
 
-</div>
 <!-- END WRAPPER --> 
 </div>
 

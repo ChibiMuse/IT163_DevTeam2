@@ -1,15 +1,14 @@
 
 <?php include 'includes/header162v4.php'?>    
 
-<!-- NEED TO INPUT WEBSITE HERE -->
-<form method="GET"  action="---------form.php" target "_blank" id="feedform">
+<!-- Need to verify coded propere with name, action etc.  -->
+<form id="feedback" name="feedback" method="GET"  action="contact.php" >
 
 <h1>Feedback</h1>
     <div>
         <p>Connect with Us!</p>
     </div>
        
-    <form>
            <!-- label ND UINPUT At 100% with margin -->
         <div class="fieldset"> 
                 <label for="name">*Name:</label>
@@ -32,8 +31,8 @@
 
         <div class="fieldset"> 
 
-            <label for="feedback">What's Up?</label>
-            <textarea id="feedback" name="feedback" rows="20" cols="50"></textarea>
+            <label for="textinput">What's Up?</label>
+            <textarea id="textinput" name="textinput" rows="20" cols="50"></textarea>
             
         </div> 
 

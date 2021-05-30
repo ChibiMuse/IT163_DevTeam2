@@ -1,6 +1,7 @@
 <?php include 'includes/163configv4.php'?>
 
 <!DOCTYPE html>
+<!-- getting error message because of the Latin, will change when content is added -->
 <html lang="en">
 <head>
 <title><?=$title?></title>
@@ -8,11 +9,11 @@
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8"/>
 
-<script src="https://use.fontawesome.com/025d1215f3.js"></script>
+<!-- 
+IS THIS THE RIGHTLINK TO bootstrap - tutor instraucted not to use the download file for group work. CDN works better.  -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 
-<!-- IS THIS THE RIGHTLINK TO bootstrap -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
 </head>
 
@@ -29,11 +30,6 @@
     <a href="contact.php">CONTACT US</a> -->
     
   </div>
-
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myNavFunction()"><i class="fa fa-bars"></i></a>
-  </div>
-
   
 <header>
 <nav>
