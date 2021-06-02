@@ -7,7 +7,7 @@
             <container class="shadowbox-continer">
                 <div class='cream-shadowbox'></div>
                 <div class='orange-shadowbox'></div>
-                <img class="resources-image" src="images/ResourcesWorking.jpg"
+                <img class="resources-image" src="imgs/ResourcesWorking.jpg"
                     alt="Two people sitting at a computer and one person standing, pointing at the keyboard and staring intently at their work"
                     title="People working on code together">
             </container>
@@ -36,7 +36,7 @@
             <container class="shadowbox-continer">
                 <div class='cream-shadowbox'></div>
                 <div class='orange-shadowbox'></div>
-                <img class="resources-image" src="images/ResourcesWorking.jpg"
+                <img class="resources-image" src="imgs/ResourcesWorking.jpg"
                     alt="Two people sitting at a computer and one person standing, pointing at the keyboard and staring intently at their work"
                     title="People working on code together">
             </container>
@@ -54,7 +54,7 @@
             <container class="shadowbox-continer">
                 <div class='cream-shadowbox'></div>
                 <div class='orange-shadowbox'></div>
-                <img class="resources-image" src="images/ResourcesWorking.jpg"
+                <img class="resources-image" src="imgs/ResourcesWorking.jpg"
                     alt="Two people sitting at a computer and one person standing, pointing at the keyboard and staring intently at their work"
                     title="People working on code together">
             </container>
@@ -72,7 +72,7 @@
             <container class="shadowbox-continer">
                 <div class='cream-shadowbox'></div>
                 <div class='orange-shadowbox'></div>
-                <img class="resources-image" src="images/ResourcesWorking.jpg"
+                <img class="resources-image" src="imgs/ResourcesWorking.jpg"
                     alt="Two people sitting at a computer and one person standing, pointing at the keyboard and staring intently at their work"
                     title="People working on code together">
             </container>
