@@ -9,7 +9,7 @@ date_default_timezone_set('America/Los_Angeles');
 //Used to store all of our WEB120 configuration information
 //prevents data from being sent early
 ob_start();
-$nav1['indexv4.php'] = "HOME";
+$nav1['index.php'] = "HOME";
 $nav1['events.php'] = "EVENTS";
 $nav1['resourcecs163.php'] = "RESOURCES";
 $nav1['contact.php'] = "CONTACT US";

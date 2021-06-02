@@ -9,6 +9,7 @@
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8"/>
 
+<link rel="stylesheet" href="css/index.css"/>
 <!-- 
 IS THIS THE RIGHTLINK TO bootstrap - tutor instraucted not to use the download file for group work. CDN works better.  -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
