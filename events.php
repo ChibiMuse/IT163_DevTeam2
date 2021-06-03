@@ -46,49 +46,8 @@ $imgURL="placeholder2.png";
     <img src="imgs/placeholder2.png">
     </div>
   </div>
-
-    </main>
-<footer>
-  <p>TBD<a href="contact.php" target="_blank"> Contact US</a><small>&copy; 2021-<?=date('Y')?><a href="mailto:1306homebase@gmail.com">All Rights Reserved</a></p>
-
-</footer>
-
-  <script>
-    function myNavFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-}
-</script>
-<script>
-var minutesLabel = document.getElementById("minutes");
-        var secondsLabel = document.getElementById("seconds");
-        var totalSeconds = 0;
-        setInterval(setTime, 1000);
-
-        function setTime()
-        {
-            ++totalSeconds;
-            secondsLabel.innerHTML = pad(totalSeconds%60);
-            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
-        }
-
-        function pad(val)
-        {
-            var valString = val + "";
-            if(valString.length < 2)
-            {
-                return "0" + valString;
-            }
-            else
-            {
-                return valString;
-            }
-        }
-</script>
-
+<script src="js/timer.js"></script>
+<?php include 'includes/footer163.php'?> 
+ </main>
 </body>
 </html>
