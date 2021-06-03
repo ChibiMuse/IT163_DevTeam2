@@ -23,11 +23,10 @@
         </div>  
 
         <div class="fieldset"> 
-            <label for="email">Title:</label>
-            <input type="text" id="email" name="email" required >
-            <span id="email-msg"> </span>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required >
+            <span id="phone-msg"> </span>
         </div>  
-
 
         <div class="fieldset"> 
 
