@@ -1,56 +1,51 @@
+:root{
+  --main-bg-color: #414770;
+  --main-light-color: #FFF8F0;
+  --main-accent-color: #F46036;
+  --secondary-accent-color: #FF8811;
+  --main-dark-color: #171123;
+}
 
-.resources-image{
+
+body {
+  font-size: 14px;
+}
+
+h1 {
+  color: var(--main-light-color)
+}
+
+header {
+  background-color: var(--main-bg-color);
+}
+
+.resources-section {
   width: 100%;
-  height: 338px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 695px;
-  left: 608px;
-  overflow: hidden;
-}
-.shadowbox-container {
-  width: 334px;
-  height: 338px;
   position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+  margin: 5%;
 }
-.cream-shadowbox {
-  width: 257px;
-  height: 250px;
-  background: #FFF8F0; 
-  opacity: 1;
-  position: absolute;
-  top: 88px;
-  left: 77px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  overflow: hidden;
+
+.resources-image {
+  border-radius: 25px;
+  box-shadow: 2em 2em 0 5px var(--main-light-color), -2em -2em 0 5px var(--main-accent-color);
 }
-.orange-shadowbox {
-  width: 285px;
-  height: 273px;
-  background:#F46036; 
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  overflow: hidden;
+.resources-text-container {
+  border: 5px solid var(--main-accent-color);
+  background-color: var(--main-light-color);
+  }
+
+.resources-text-right {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  font-family: Myriad Pro;
+  font-weight: Semibold;
+  font-size: 1rem;
+  padding: 2%;
+  text-align: justify;
 }
 
 .resources-textbox {
-  width: 961px;
-  height: 272px;
+  width: 100%;
   background: #FFF8F0;;
   opacity: 1;
   position: relative;
@@ -61,27 +56,12 @@
 }
 
 .resources-title {
-  width: 902px;
+  width: 100%;
   color: rgba(0,0,0,1);
-  position: absolute;
-  top: 77px;
-  left: 30px;
-  font-family: Myriad Pro;
-  font-weight: Semibold;
-  font-size: 18px;
-  opacity: 1;
-  text-align: justified;
-}
-.resources.maintext {
-  width: 95px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 27px;
-  left: 30px;
   font-family: Fieldwork;
   font-weight: Hum Regular;
-  font-size: 36px;
-  opacity: 1;
+  font-size: 2rem;
+  padding-top: 2%;
   text-align: justified;
 }
 
