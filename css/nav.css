@@ -1,4 +1,24 @@
-@charset "utf-8";
+:root{
+  --main-bg-color: #414770;
+  --main-light-color: #FFF8F0;
+  --main-accent-color: #F46036;
+  --secondary-accent-color: #FF8811;
+  --main-dark-color: #171123;
+  --special-font: "Avory I Latin" Helvetica Arial;
+  --main-font: "Myriad Pro" Helvetica Arial;
+  --heading-font: "Fieldwork Hub" Helvetica Arial; 
+}
+
+
+
+
+
+
+
+
+
+
+<script> @charset "utf-8";
 /* Add a black background color to the top navigation */
 .mobinav {
   background-color: #333;

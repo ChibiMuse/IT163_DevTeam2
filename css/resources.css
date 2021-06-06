@@ -19,6 +19,14 @@ header {
   background-color: var(--main-bg-color);
 }
 
+footer {
+  background-color: var(--main-accent-color);
+  margin: 10%;
+  border-top: 1rem solid var(--main-light-color);
+  padding: 2%;
+
+}
+
 .resources-section {
   width: 100%;
   position: relative;
@@ -64,4 +72,29 @@ header {
   padding-top: 2%;
   text-align: justified;
 }
+
+.fa-instagram{
+  color: var(--main-bg-color);
+  max-width: 20vw;
+}
+
+div .fab{
+  background-color: var(--secondary-accent-color);
+  border-radius: 25px;
+  font-size: 3rem;
+}
+
+.fa-github{
+  color: var(--main-dark-color);
+}
+
+.fa-twitter-square{
+  color: var(--main-bg-color);
+
+}
+.fa-meetup{
+  color: var(--main-dark-color);
+
+}
+
 
