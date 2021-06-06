@@ -51,7 +51,6 @@ switch(THIS_PAGE){
         //  $logo_color = ' style="color: #84828f';
         $PageID = "CONTACT US";
         $style = "contact"
-
         break;
 
     default:    

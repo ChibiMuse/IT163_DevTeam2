@@ -1,4 +1,4 @@
-<?php include 'includes/header162v4.php'?>
+<?php include 'includes/header.php'?>
 
 <!-- Changed name of this page to index.php (from index4.php) CHECKL LINKAGE -->
 
@@ -47,4 +47,4 @@
 
     <!-- END container -->
     </div>
-    <?php include 'includes/footer163.php'?>
+    <?php include 'includes/footer.php'?>
