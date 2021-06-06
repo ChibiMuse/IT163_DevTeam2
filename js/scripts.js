@@ -1,3 +1,5 @@
+//This Javascript allows the website to have an interactable calender
+//You do this by forming the calender's text through HTML then have it be useusable through the use of Javascript
 let today = new Date();
 let currentMonth = today.getMonth();
 let currentYear = today.getFullYear();
