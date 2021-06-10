@@ -1,5 +1,5 @@
 :root{
-  --main-bg-color: #414770;
+  --main-bg-color: #372248;
   --main-light-color: #FFF8F0;
   --main-accent-color: #F46036;
   --secondary-accent-color: #FF8811;
@@ -30,6 +30,20 @@ footer {
   padding: 2%;
 
 }
+
+.clock .row{
+  background-color: var(--main-light-color);
+  border: 1px solid var(--secondary-accent-color);
+}
+
+.clock p {
+  font-size: 1.5em;
+  color: var(--main-dark-color);
+  font-family: var(--special-font);
+  line-height: auto;
+  margin: 0;
+}
+
 
 .resources-section {
   width: 100%;
@@ -77,6 +91,7 @@ footer {
   text-align: justified;
 }
 
+
 .fa-instagram{
   color: var(--main-bg-color);
   max-width: 20vw;
@@ -100,5 +115,4 @@ div .fab{
   color: var(--main-dark-color);
 
 }
-
 
