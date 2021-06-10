@@ -1,34 +1,103 @@
+:root{
+    --main-bg-color: #372248;
+    --main-light-color: #FFF8F0;
+    --main-accent-color: #F46036;
+    --secondary-accent-color: #FF8811;
+    --main-dark-color: #171123;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+  }
 
+  h1 {
+    color: var(--main-light-color);
+    font-family: var(--special-font);
+  }
 
-body {
-    background-color:rgb(23, 17, 35);
-    }
+  .who h2, .what h2, .how h2 {
+      font: var(--main-dark-color) var(--special-font);
+      text-align: center;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font-size: 2em;
+  }
+  
+  header {
+    background-color: var(--main-bg-color);
+  }
+  
+  footer {
+    background-color: var(--main-accent-color);
+    margin: 10%;
+    border-top: 1rem solid var(--main-light-color);
+    padding: 2%;
+  
+  }
 
+  aside {
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+}
 
-header  {
-    background-color:rgb(23, 17, 35);
+p {
+    line-height: 2em;
+    margin: 2em;
+    font-size: 1em;
+    text-align: justify;
+
+}
+
+.clock .row{
+    background-color: var(--main-light-color);
+    border: 1px solid var(--secondary-accent-color);
+}
+
+.clock p {
+    font-size: 1.5em;
+    color: var(--main-dark-color);
+    font-family: var(--special-font);
+    line-height: auto;
+    margin: 0;
+}
+
+.home-about {
+    background-color: var(--main-light-color);
+    border: .5em solid var(--main-accent-color);
+    padding: 2%;
+}
+
+.home-img {
+    border-radius: 1.5rem;
+    box-shadow: 1rem -1rem 0 .3rem var(--main-accent-color);
 }
 
 
-.state {
-    color: rgb(250, 248, 248);
-    font: "Avory I Latin" Helvetica Arial;
-}
 
-main  {
-    font: rgb(23, 17, 35) "Myriad Pro" Helvetica Arial;
-
-}
-
-footer {
-    background-color: rgb(250, 248, 248);
-}
-
- h1 h2 {
-    color: rgb(250, 248, 248);
-    font: "Fieldwork Hub" Helvetica Arial;
-}
-
+.fa-instagram{
+    color: var(--main-bg-color);
+    max-width: 20vw;
+  }
+  
+  div .fab{
+    background-color: var(--secondary-accent-color);
+    border-radius: 25px;
+    font-size: 3rem;
+  }
+  
+  .fa-github{
+    color: var(--main-dark-color);
+  }
+  
+  .fa-twitter-square{
+    color: var(--main-bg-color);
+  
+  }
+  .fa-meetup{
+    color: var(--main-dark-color);
+  
+  }
+  
+  
 
 
 

@@ -1,0 +1,169 @@
+:root{
+    --main-bg-color: #372248;
+    --main-light-color: #FFF8F0;
+    --main-accent-color: #F46036;
+    --secondary-accent-color: #FF8811;
+    --main-dark-color: #171123;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+  }
+
+.contactwrapper {
+    display: flex;
+    background-color: #372248;
+    color: #FFF8F0;
+    
+}
+
+p {
+    display: inline-block;
+    width: auto;
+    padding: 25px;
+    color: #FFF8F0;
+    font-size: 26pt;
+}
+
+img.right {
+    display: inline-block;
+    padding: 20px;
+    width: auto;
+}
+
+.contact-form-area {
+	background: #372248;
+    color: #FFF8F0;
+	justify-content: center;
+	padding: 20px;
+    margin: auto;
+    position: relative;
+	z-index: 1
+}
+
+label   {
+    padding: 10px;
+}
+
+
+/* .contact-form-heading h3 {
+	color: #FFF8F0;
+	text-align: center;
+	margin-bottom: 60px;
+	font-weight: 700
+} */
+
+.contact-form-area input[type='text'] {
+    display: block;
+	width: 45%;
+	background-color: #FFF8F0;
+	border: 5px solid #F46036;
+	padding: 20px;
+	margin: auto;
+	color: #FFF8F0;
+}
+
+.contact-form-area input[type='email'] {
+	
+    display: block;
+    width: 45%;
+    background-color: #FFF8F0;
+    border: 5px solid #F46036;
+    padding: 20px;
+    margin: auto;
+	margin-top: 20px;
+    color: #FFF8F0;
+
+}
+
+.contact-form-area textarea {
+	display: block;
+    width: 58%;
+    background-color: #FFF8F0;
+    border: 5px solid #F46036;
+    padding: 20px;
+	margin: auto;
+    color: #FFF8F0;
+	margin-top: 20px;
+}
+ h3	{
+	 text-align: center;
+ }
+
+ .checks {
+	text-align: center;	
+	justify-content: center;
+ }
+
+
+/*16.5 Contact Form Button*/
+.send-btn {
+	text-align: center;
+	margin-top: 80px
+}
+
+#formsend {
+	background: #F46036;
+	color: #fff;
+	border: none;
+	padding: 12px 42px;
+	text-transform: capitalize;
+	font-weight: 700;
+	cursor: pointer;
+	-webkit-transition: .5s;
+	transition: .5s;
+	
+}
+
+#formsend:hover {
+	background: #F46036;
+
+}
+
+.clock .row{
+    background-color: var(--main-light-color);
+    border: 1px solid var(--secondary-accent-color);
+}
+
+.clock p {
+    font-size: 1.5em;
+    color: var(--main-dark-color);
+    font-family: var(--special-font);
+    line-height: auto;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+  }
+  
+  footer {
+    background-color: var(--main-accent-color);
+    margin: 10%;
+    border-top: 1rem solid var(--main-light-color);
+    padding: 2%;
+  
+  }
+
+  .fa-instagram{
+    color: var(--main-bg-color);
+    max-width: 20vw;
+  }
+  
+  div .fab{
+    background-color: var(--secondary-accent-color);
+    border-radius: 25px;
+    font-size: 3rem;
+  }
+  
+  .fa-github{
+    color: var(--main-dark-color);
+  }
+  
+  .fa-twitter-square{
+    color: var(--main-bg-color);
+  
+  }
+  .fa-meetup{
+    color: var(--main-dark-color);
+  
+  }
