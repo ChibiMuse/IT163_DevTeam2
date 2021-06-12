@@ -20,12 +20,28 @@
 
     <!-- Overwrite Bootstrap in this Style section. Make sure to use the same level of specificity as the Bootstrap you are trying to overide-->
     <style>
+
+    :root{
+    --main-bg-color: #372248;
+    --main-light-color: #FFF8F0;
+    --main-accent-color: #F46036;
+    --secondary-accent-color: #FF8811;
+    --main-dark-color: #171123;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+    }
         body {
             background-color: var(--main-bg-color);
         }
 
         footer p {
             margin: 1em;
+        }
+
+       
+        li.nav-item{
+            margin: 2rem;
         }
 
         .nav-link {
@@ -39,10 +55,7 @@
 
         .nav-pills .nav-link.active:hover {
             background-color: var(--secondary-accent-color);
-        }
-
-        .navbar-brand {
-            margin-right: 2rem;
+            
         }
 
         .nav-link:focus,
@@ -50,31 +63,47 @@
             color: var(--secondary-accent-color);
         }
 
+        button.navbar-toggler:hover{
+            background-color: var(--secondary-accent-color);
+        }
+
+        button.navbar-toggler{
+            background-color: var(--main-accent-color);
+            margin-right: 5rem;
+            padding: 1rem;
+        }
+
+
     </style>
 </head>
 
 <body>
-    <header class="container sticky-top">
-        <nav class="navbar-brand  nav-pills nav-justified col-12">
-
-            <ul class="nav navbar-brand align-items-center">
-                <li class="navbar-brand">
-                    <a href="#"><img class="img-fluid" src="imgs/logo.png"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">EVENTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resources.html">RESOURCES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
-                </li>
-            </ul>
+    <header class="sticky-top">
+        <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg ">
+            <div class="container-fluid align-items-center">
+                    <a class="navbar-brand" href="#"><img class="img-fluid" src="imgs/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">RESOURCES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
         </nav>
+    </div>
     </header>>
 
 
@@ -125,21 +154,21 @@
     <footer class="container align-items-center">
         <div class="row justify-content-center align-items-center">
             <div class="col-4 align-items-center">
-                <p>TBD<a href="contact.php" target="_blank"> Contact US</a><small> &copy; 2021-
+                <p><a href="contact.php" target="_blank"> Contact Us</a><small> &copy; 2021-
                 <?=date('Y')?> <a href="mailto:1306homebase@gmail.com">All Rights Reserved</a>
             </small></p>
             </div>
                 <div class="badge col-1">
-                    <i class="fab fa-instagram"></i>
+                    <a href="social.html"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="badge col-1">
-                    <i class="fab fa-github"></i>
+                    <a href="social.html"><i class="fab fa-github"></i></a>
                 </div>
                 <div class="badge col-1">
-                    <i class="fab fa-twitter-square"></i>
+                    <a href="social.html"><i class="fab fa-twitter-square"></i></a>
                 </div>
                 <div class="badge col-1">
-                    <i class="fab fa-meetup"></i>
+                    <a href="social.html"><i class="fab fa-meetup"></i></a>
                 </div>
         <div class="clock container col-2">
             <div class="row justify-content-evenly align-items-center">
@@ -150,8 +179,9 @@
                 
             </div>
         </div>  
-            
-            
+        <button type="button" class="btn btn-primary" data-mdb-toggle="button" autocomplete="off">
+            Toggle button
+          </button>
         </div>
 
     </footer>

@@ -12,12 +12,14 @@
 /* -------------- HEADER CSS --------------- */
 header {
   background-color: var(--main-bg-color);
-  width: auto;
-  padding-left: 10%;
-  margin: 0 auto;
+  width: 100%;
 }
 
-@media screen and (max-width: 991px) { .navbar-brand { height: auto } }
+
+header > i {
+  color: var(--main-light-color);
+  justify-content: center;
+}
 
 /* -------------- FOOTER CSS --------------- */
 
@@ -27,6 +29,16 @@ footer {
   border-top: 1rem solid var(--main-light-color);
   padding: 2%;
 
+}
+
+footer p a:link {
+  color: var(--main-dark-color);
+  text-decoration: none;
+}
+
+footer p a:hover {
+  color: var(--main-bg-color);
+  text-decoration: bold;
 }
 
 .clock .row{
