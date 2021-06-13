@@ -1,0 +1,118 @@
+body {
+  font-size: 14px;
+}
+
+h1 {
+  color: var(--main-light-color);
+  font-family: var(--special-font);
+}
+
+header {
+  background-color: var(--main-bg-color);
+}
+
+footer {
+  background-color: var(--main-accent-color);
+  margin: 10%;
+  border-top: 1rem solid var(--main-light-color);
+  padding: 2%;
+
+}
+
+
+.clock .row{
+  background-color: var(--main-light-color);
+  border: 1px solid var(--secondary-accent-color);
+}
+
+.clock p {
+  font-size: 1.5em;
+  color: var(--main-dark-color);
+  font-family: var(--special-font);
+  line-height: auto;
+  margin: 0;
+}
+
+
+.resources-section {
+  width: 100%;
+  position: relative;
+  margin: 5%;
+}
+
+.events-image {
+  border-radius: 1.5rem;
+  box-shadow: 1rem 1rem 0 .15em var(--main-light-color), -1rem -1rem 0 .15rem var(--main-accent-color);
+}
+.events-text-container {
+  border: 5px solid var(--main-accent-color);
+  background-color: var(--main-light-color);
+  }
+
+.events-text-right {
+  width: 100%;
+  color: var(--main-dark-color);
+  font-family: Myriad Pro;
+  font-weight: Semibold;
+  font-size: 1rem;
+  padding: 2%;
+  text-align: justify;
+}
+
+.events-textbox {
+  width: 100%;
+  background: var(--main-light-color);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border: 5px solid var(--main-accent-color);
+  overflow: hidden;
+}
+
+.events-title {
+  width: 100%;
+  color: var(--main-dark-color);
+  font-family: Fieldwork, var(--heading-font);
+  font-weight: Hum Regular;
+  font-size: 2rem;
+  padding-top: 2%;
+  text-align: justified;
+}
+
+.events-aside{
+  text-align:center;
+  margin: 10px;
+}
+
+.events-inline h2{
+margin: 25px;
+text-align: center;
+line-height: 30px; 
+padding: 25px;
+}
+
+
+.fa-instagram{
+  color: var(--main-bg-color);
+  max-width: 20vw;
+}
+
+div .fab{
+  background-color: var(--secondary-accent-color);
+  border-radius: 25px;
+  font-size: 3rem;
+}
+
+.fa-github{
+  color: var(--main-dark-color);
+}
+
+.fa-twitter-square{
+  color: var(--main-bg-color);
+
+}
+.fa-meetup{
+  color: var(--main-dark-color);
+
+}
