@@ -20,12 +20,39 @@
 
     <!-- Overwrite Bootstrap in this Style section. Make sure to use the same level of specificity as the Bootstrap you are trying to overide-->
     <style>
-        body {
+
+:root{
+    --main-bg-color: #372248;
+    --main-light-color: #FFF8F0;
+    --main-accent-color: #F46036;
+    --secondary-accent-color: #FF8811;
+    --main-dark-color: #171123;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+    }
+
+    .darkmode {
+    --main-bg-color: #FFF8F0;
+    --main-light-color: #372248;;
+    --main-accent-color: #FF8811;
+    --secondary-accent-color: #F46036;
+    --main-dark-color: #FFF8F0;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+  }
+  body {
             background-color: var(--main-bg-color);
         }
 
         footer p {
             margin: 1em;
+        }
+
+       
+        li.nav-item{
+            margin: 2rem;
         }
 
         .nav-link {
@@ -39,10 +66,7 @@
 
         .nav-pills .nav-link.active:hover {
             background-color: var(--secondary-accent-color);
-        }
-
-        .navbar-brand {
-            margin-right: 2rem;
+            
         }
 
         .nav-link:focus,
@@ -50,11 +74,22 @@
             color: var(--secondary-accent-color);
         }
 
+        button.navbar-toggler:hover{
+            background-color: var(--secondary-accent-color);
+        }
+
+        button.navbar-toggler{
+            background-color: var(--main-accent-color);
+            margin-right: 5rem;
+            padding: 1rem;
+        }
+
     </style>
 </head>
 
 <body>
-    <header class="container sticky-top">
+    <header class="sticky-top">
+        <div class="container">
         <nav class="navbar-brand  nav-pills nav-justified">
 
             <ul class="nav navbar-brand align-items-center">
@@ -74,8 +109,14 @@
                     <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
                 </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </div>
+    <button id="dark-mode-toggle" type="button" class="btn dark-mode-toggle col-1" aria-label="toggle dark mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+</nav>
+</div>
+</header>
 
 
         <div class="contactwrapper">
@@ -121,7 +162,7 @@
             </div>
                 </div>
             </div>
-           
+            <script src="js/darkmode.js"></script>
 
 
 <footer class="container align-items-center">

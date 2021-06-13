@@ -1,13 +1,4 @@
-:root{
-    --main-bg-color: #372248;
-    --main-light-color: #FFF8F0;
-    --main-accent-color: #F46036;
-    --secondary-accent-color: #FF8811;
-    --main-dark-color: #171123;
-    --special-font: "Avory I Latin" Helvetica Arial;
-    --main-font: "Myriad Pro" Helvetica Arial;
-    --heading-font: "Fieldwork Hub" Helvetica Arial; 
-  }
+
 
   h1 {
     color: var(--main-light-color);
@@ -21,17 +12,9 @@
       padding-bottom: 5%;
       font-size: 2em;
   }
-  
-  header {
-    background-color: var(--main-bg-color);
-  }
-  
-  footer {
-    background-color: var(--main-accent-color);
-    margin: 10%;
-    border-top: 1rem solid var(--main-light-color);
-    padding: 2%;
-  
+
+  .who, .what, .how {
+    color: var(--main-dark-color);
   }
 
   aside {
@@ -47,19 +30,6 @@ p {
 
 }
 
-.clock .row{
-    background-color: var(--main-light-color);
-    border: 1px solid var(--secondary-accent-color);
-}
-
-.clock p {
-    font-size: 1.5em;
-    color: var(--main-dark-color);
-    font-family: var(--special-font);
-    line-height: auto;
-    margin: 0;
-}
-
 .home-about {
     background-color: var(--main-light-color);
     border: .5em solid var(--main-accent-color);
@@ -73,29 +43,6 @@ p {
 
 
 
-.fa-instagram{
-    color: var(--main-bg-color);
-    max-width: 20vw;
-  }
-  
-  div .fab{
-    background-color: var(--secondary-accent-color);
-    border-radius: 25px;
-    font-size: 3rem;
-  }
-  
-  .fa-github{
-    color: var(--main-dark-color);
-  }
-  
-  .fa-twitter-square{
-    color: var(--main-bg-color);
-  
-  }
-  .fa-meetup{
-    color: var(--main-dark-color);
-  
-  }
   
   
 

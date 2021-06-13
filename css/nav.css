@@ -1,12 +1,43 @@
-:root{
-  --main-bg-color: #372248;
-  --main-light-color: #FFF8F0;
-  --main-accent-color: #F46036;
-  --secondary-accent-color: #FF8811;
-  --main-dark-color: #171123;
-  --special-font: "Avory I Latin" Helvetica Arial;
-  --main-font: "Myriad Pro" Helvetica Arial;
-  --heading-font: "Fieldwork Hub" Helvetica Arial; 
+body {
+  background-color: var(--main-bg-color);
+}
+
+footer p {
+  margin: 1em;
+}
+
+
+li.nav-item{
+  margin: 2rem;
+}
+
+.nav-link {
+  color: var(--main-light-color);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: var(--main-accent-color);
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: var(--secondary-accent-color);
+  
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--secondary-accent-color);
+}
+
+button.navbar-toggler:hover{
+  background-color: var(--secondary-accent-color);
+}
+
+button.navbar-toggler{
+  background-color: var(--main-accent-color);
+  margin-right: 5rem;
+  padding: 1rem;
 }
 
 /* -------------- HEADER CSS --------------- */
@@ -19,6 +50,17 @@ header {
 header > i {
   color: var(--main-light-color);
   justify-content: center;
+}
+
+button > i {
+  color: var(--main-light-color);
+  font-size: 1.5rem;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  top: 1rem;
 }
 
 /* -------------- FOOTER CSS --------------- */

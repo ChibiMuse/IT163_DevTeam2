@@ -19,54 +19,76 @@
     <title>Social Media Filler Page</title>
   <!-- Overwrite Bootstrap in this Style section. Make sure to use the same level of specificity as the Bootstrap you are trying to overide-->
   <style>
-    body {
-        background-color: var(--main-bg-color);
+
+:root{
+    --main-bg-color: #372248;
+    --main-light-color: #FFF8F0;
+    --main-accent-color: #F46036;
+    --secondary-accent-color: #FF8811;
+    --main-dark-color: #171123;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
     }
 
-    footer p {
-        margin: 1em;
-    }
+    .darkmode {
+    --main-bg-color: #FFF8F0;
+    --main-light-color: #372248;;
+    --main-accent-color: #FF8811;
+    --secondary-accent-color: #F46036;
+    --main-dark-color: #FFF8F0;
+    --special-font: "Avory I Latin" Helvetica Arial;
+    --main-font: "Myriad Pro" Helvetica Arial;
+    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+  }
+  body {
+            background-color: var(--main-bg-color);
+        }
 
-   
-    li.nav-item{
-        margin: 2rem;
-    }
+        footer p {
+            margin: 1em;
+        }
 
-    .nav-link {
-        color: var(--main-light-color);
-    }
+       
+        li.nav-item{
+            margin: 2rem;
+        }
 
-    .nav-pills .nav-link.active,
-    .nav-pills .show>.nav-link {
-        background-color: var(--main-accent-color);
-    }
+        .nav-link {
+            color: var(--main-light-color);
+        }
 
-    .nav-pills .nav-link.active:hover {
-        background-color: var(--secondary-accent-color);
-        
-    }
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            background-color: var(--main-accent-color);
+        }
 
-    .nav-link:focus,
-    .nav-link:hover {
-        color: var(--secondary-accent-color);
-    }
+        .nav-pills .nav-link.active:hover {
+            background-color: var(--secondary-accent-color);
+            
+        }
 
-    button.navbar-toggler:hover{
-        background-color: var(--secondary-accent-color);
-    }
+        .nav-link:focus,
+        .nav-link:hover {
+            color: var(--secondary-accent-color);
+        }
 
-    button.navbar-toggler{
-        background-color: var(--main-accent-color);
-        margin-right: 5rem;
-        padding: 1rem;
-    }
+        button.navbar-toggler:hover{
+            background-color: var(--secondary-accent-color);
+        }
 
+        button.navbar-toggler{
+            background-color: var(--main-accent-color);
+            margin-right: 5rem;
+            padding: 1rem;
+        }
 
 </style>
 </head>
 
 <body>
-<header class="sticky-top">
+    <header class="sticky-top">
+        <div class="container">
     <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg ">
         <div class="container-fluid align-items-center">
                 <a class="navbar-brand" href="#"><img class="img-fluid" src="imgs/logo.png"></a>
@@ -88,15 +110,18 @@
                     <a class="nav-link" href="contact.html">CONTACT</a>
                 </li>
             </ul>
-            </div>
         </div>
-    </nav>
+    </div>
+    <button id="dark-mode-toggle" type="button" class="btn dark-mode-toggle col-1" aria-label="toggle dark mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+</nav>
 </div>
-</header>>
+</header>
 
     <h1>SOCIAL MEDIA DEMO PAGE </h1>
     <p><a href="index.html">Return to HOME</a></p>
-
+    <script src="js/darkmode.js"></script>
 </body>
 
 </html>
