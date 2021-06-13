@@ -11,8 +11,8 @@
 
 .contactwrapper {
     display: flex;
-    background-color: #372248;
-    color: #FFF8F0;
+    background-color: var(--main-bg-color);
+    color: var(--main-light-color);
     
 }
 
@@ -20,7 +20,7 @@ p {
     display: inline-block;
     width: auto;
     padding: 25px;
-    color: #FFF8F0;
+    color: var(--main-light-color);
     font-size: 26pt;
 }
 
@@ -31,8 +31,8 @@ img.right {
 }
 
 .contact-form-area {
-	background: #372248;
-    color: #FFF8F0;
+	background: var(--main-bg-color);
+    color: var(--main-light-color);
 	justify-content: center;
 	padding: 20px;
     margin: auto;
@@ -55,34 +55,34 @@ label   {
 .contact-form-area input[type='text'] {
     display: block;
 	width: 45%;
-	background-color: #FFF8F0;
-	border: 5px solid #F46036;
+	background-color: var(--main-light-color);
+	border: 5px solid var(--main-accent-color);
 	padding: 20px;
 	margin: auto;
-	color: #FFF8F0;
+	color: var(--main-light-color);
 }
 
 .contact-form-area input[type='email'] {
 	
     display: block;
     width: 45%;
-    background-color: #FFF8F0;
-    border: 5px solid #F46036;
+    background-color: var(--main-light-color);
+    border: 5px solid var(--main-accent-color);
     padding: 20px;
     margin: auto;
 	margin-top: 20px;
-    color: #FFF8F0;
+    color: var(--main-light-color);
 
 }
 
 .contact-form-area textarea {
 	display: block;
     width: 58%;
-    background-color: #FFF8F0;
-    border: 5px solid #F46036;
+    background-color: var(--main-light-color);
+    border: 5px solid var(--main-accent-color);
     padding: 20px;
 	margin: auto;
-    color: #FFF8F0;
+    color: var(--main-light-color);
 	margin-top: 20px;
 }
  h3	{
@@ -102,7 +102,7 @@ label   {
 }
 
 #formsend {
-	background: #F46036;
+	background: var(--main-accent-color);
 	color: #fff;
 	border: none;
 	padding: 12px 42px;
@@ -115,55 +115,6 @@ label   {
 }
 
 #formsend:hover {
-	background: #F46036;
+	background: var(--main-accent-color);
 
 }
-
-.clock .row{
-    background-color: var(--main-light-color);
-    border: 1px solid var(--secondary-accent-color);
-}
-
-.clock p {
-    font-size: 1.5em;
-    color: var(--main-dark-color);
-    font-family: var(--special-font);
-    line-height: auto;
-    margin: 0;
-}
-
-header {
-    background-color: var(--main-bg-color);
-  }
-  
-  footer {
-    background-color: var(--main-accent-color);
-    margin: 10%;
-    border-top: 1rem solid var(--main-light-color);
-    padding: 2%;
-  
-  }
-
-  .fa-instagram{
-    color: var(--main-bg-color);
-    max-width: 20vw;
-  }
-  
-  div .fab{
-    background-color: var(--secondary-accent-color);
-    border-radius: 25px;
-    font-size: 3rem;
-  }
-  
-  .fa-github{
-    color: var(--main-dark-color);
-  }
-  
-  .fa-twitter-square{
-    color: var(--main-bg-color);
-  
-  }
-  .fa-meetup{
-    color: var(--main-dark-color);
-  
-  }
