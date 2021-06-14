@@ -44,6 +44,19 @@ h1 {
   text-align: justify;
 }
 
+.resources-text-container a:link, .resources-text-container a:visited {
+  color: var(--main-accent-color);
+  text-decoration: none;
+  }
+
+.resources-text-container a:hover {
+  color: var(--secondary-accent-color);
+ }
+
+ .resources-text-container li {
+  color: var(--main-dark-color);
+ }
+
 .resources-textbox {
   width: 100%;
   background: var(--main-light-color);

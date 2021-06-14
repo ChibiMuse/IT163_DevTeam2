@@ -76,13 +76,13 @@ footer {
 
 }
 
-footer p a:link {
+footer p a:link, footer p a:visited {
   color: var(--main-dark-color);
   text-decoration: none;
 }
 
 footer p a:hover {
-  color: var(--main-bg-color);
+  color: var(--main-light-color);
   text-decoration: bold;
 }
 
