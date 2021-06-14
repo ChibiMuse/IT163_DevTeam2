@@ -16,7 +16,7 @@
     
 }
 
-p {
+aside p {
     display: inline-block;
     width: auto;
     padding: 25px;
@@ -24,10 +24,14 @@ p {
     font-size: 26pt;
 }
 
-img.right {
-    display: inline-block;
-    padding: 20px;
-    width: auto;
+aside {
+    margin-top: 3rem; 
+    margin-bottom: 3rem;
+}
+
+aside img {
+    border-radius: 1.5rem;
+    box-shadow: 1rem -1rem 0 .3rem var(--main-accent-color);
 }
 
 .contact-form-area {

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
 
 <head>
@@ -90,43 +89,50 @@
 <body>
     <header class="sticky-top">
         <div class="container">
-        <nav class="navbar-brand  nav-pills nav-justified">
-
-            <ul class="nav navbar-brand align-items-center">
-                <li class="navbar-brand">
-                    <a href="#"><img class="img-fluid" src="imgs/logo.png"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="events.html">EVENTS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="resources.html">RESOURCES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
-                </li>
-            </ul>
+            <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg">
+                <div class="container-fluid align-items-center">
+                        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="imgs/logo.png"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="events.html">EVENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resources.html">RESOURCES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button id="dark-mode-toggle" type="button" class="btn dark-mode-toggle col-1" aria-label="toggle dark mode">
+                    <i class="fas fa-adjust"></i>
+                </button>
+            </nav>
         </div>
-    </div>
-    <button id="dark-mode-toggle" type="button" class="btn dark-mode-toggle col-1" aria-label="toggle dark mode">
-        <i class="fas fa-adjust"></i>
-      </button>
-</nav>
-</div>
-</header>
+    </header>
 
-
-        <div class="contactwrapper">
+        <aside class = "container"> 
+            <section class="row">
         
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div class="row justify-content-between justify-content-sm-center align-items-center">
+                    <div class ="col-lg-9 col-sm-12">
+                        <p> Have questions on how you can use your skills for good? Need more information about an upcoming event? Contact us!</p>
+                    </div>    
+                    <div class="col-lg-3 col-sm-4">
+                        <img class="img-fluid" src="imgs/shout.jpg" alt="shout out" name="Shout">
+                    </div>
+                </div>
+            </section>
         
-        
-            <img class="right" src="imgs/shout.JPG" alt="Shout Out" name="Shout">
-        
-        </div>
+        </aside>
         
         <div class="contact-form-area">
             <div class="contact-form">
@@ -162,42 +168,44 @@
             </div>
                 </div>
             </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+            </script>
             <script src="js/darkmode.js"></script>
+            <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
 
 
-<footer class="container align-items-center">
-    <div class="row justify-content-center align-items-center">
-        <div class="col-4 align-items-center">
-            <p>TBD<a href="contact.php" target="_blank"> Contact US</a><small> &copy; 2021-
-            <?=date('Y')?> <a href="mailto:1306homebase@gmail.com">All Rights Reserved</a>
-        </small></p>
-        </div>
-            <div class="badge col-1">
-                <i class="fab fa-instagram"></i>
-            </div>
-            <div class="badge col-1">
-                <i class="fab fa-github"></i>
-            </div>
-            <div class="badge col-1">
-                <i class="fab fa-twitter-square"></i>
-            </div>
-            <div class="badge col-1">
-                <i class="fab fa-meetup"></i>
-            </div>
-    <div class="clock container col-2">
-        <div class="row justify-content-evenly align-items-center">
-                <p class = "col-1" id="minutes"></p>
-                <p class = "col-1">:</p>
-                <p class = "col-1" id="seconds"></p>
-             <script type="text/javascript" src="js/timer.js"></script>
-            
-        </div>
-    </div>  
+            <footer class="container align-items-center">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 align-items-center">
+                        <p><a href="contact.php" target="_blank"> Contact Us</a><small> &copy; 2021-
+                        <?=date('Y')?> <a href="mailto:1306homebase@gmail.com">All Rights Reserved</a>
+                    </small></p>
+                    </div>
+                        <div class="badge col-lg-1 col-md-2 col-sm-3">
+                            <a href="social.html"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="badge col-lg-1 col-md-2 col-sm-3">
+                            <a href="social.html"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="badge col-lg-1 col-md-2 col-sm-3">
+                            <a href="social.html"><i class="fab fa-twitter-square"></i></a>
+                        </div>
+                        <div class="badge col-lg-1 col-md-2 col-sm-3">
+                            <a href="social.html"><i class="fab fa-meetup"></i></a>
+                        </div>
+                <div class="clock container col-lg-2 col-md-4 col-sm-4">
+                    <div class="row justify-content-evenly align-items-center">
+                            <p class = "col-1" id="minutes"></p>
+                            <p class = "col-1">:</p>
+                            <p class = "col-1" id="seconds"></p>
+                         <script type="text/javascript" src="js/timer.js"></script>
+                        
+                    </div>
+                </div>  
         
+                </div>
         
-    </div>
-
-</footer>
+            </footer>
 </body>
 
 </html>

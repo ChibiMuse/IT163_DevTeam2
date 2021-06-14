@@ -19,7 +19,9 @@
   --main-font: "Myriad Pro" Helvetica Arial;
   --heading-font: "Fieldwork Hum bold" Helvetica Arial; 
 }
-
+.toastr{
+  z-index: 9998;
+}
 .toast-body > p
 {
   line-height: 0em;

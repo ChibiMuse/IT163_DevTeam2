@@ -4,6 +4,7 @@
 
 //Gets session storage value. Have they been selection to win?
 let randomWinVar = sessionStorage.getItem('randomWin');
+console.log(randomWinVar);
 
 //Finds the toast close button and assigns it to a variable
 const toastWindow = document.querySelector('#toast-win-close');
@@ -39,7 +40,7 @@ function ToastHide(){
     var toastEl = document.getElementById("toast-win");
     var toastElement = new bootstrap.Toast(toastEl, option2);
 
-    toastElement.hide();
+    toastElement.dispose();
 }
 
 //function to get a random number. max is the "out of", so if you do max = 3, it will pick numbers 0, 1, or 2
@@ -52,6 +53,7 @@ function getRandomInt(max) {
 function setRandomWin(){
     var randomInt = getRandomInt(10);
     sessionStorage.setItem("randomWin", randomInt);
+    console.log(randomInt);
    
     if (randomInt === 0) {
         Toast();
