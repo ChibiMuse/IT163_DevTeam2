@@ -47,6 +47,8 @@ footer {
 .events-text-container {
   border: 5px solid var(--main-accent-color);
   background-color: var(--main-light-color);
+  color: var(--main-dark-color);
+  padding: 2%;
   }
 
 .events-text-right {

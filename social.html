@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
 
 <head>
@@ -122,6 +121,38 @@
     <h1>SOCIAL MEDIA DEMO PAGE </h1>
     <p><a href="index.html">Return to HOME</a></p>
     <script src="js/darkmode.js"></script>
+    <footer class="container align-items-center">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 align-items-center">
+                <p><a href="contact.php" target="_blank"> Contact Us</a><small> &copy; 2021-
+                <?=date('Y')?> <a href="mailto:1306homebase@gmail.com">All Rights Reserved</a>
+            </small></p>
+            </div>
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
+                    <a href="social.html"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
+                    <a href="social.html"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
+                    <a href="social.html"><i class="fab fa-twitter-square"></i></a>
+                </div>
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
+                    <a href="social.html"><i class="fab fa-meetup"></i></a>
+                </div>
+        <div class="clock container col-lg-2 col-md-4 col-sm-4">
+            <div class="row justify-content-evenly align-items-center">
+                    <p class = "col-1" id="minutes"></p>
+                    <p class = "col-1">:</p>
+                    <p class = "col-1" id="seconds"></p>
+                 <script type="text/javascript" src="js/timer.js"></script>
+                
+            </div>
+        </div>  
+
+        </div>
+
+    </footer>
 </body>
 
 </html>

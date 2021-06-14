@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Myriad+Pro&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Fieldwork&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    <title>Resources</title>
-
+    <title>HOME</title>
+    
     <!-- Overwrite Bootstrap in this Style section. Make sure to use the same level of specificity as the Bootstrap you are trying to overide-->
     <style>
 
@@ -29,7 +24,7 @@
     --main-dark-color: #171123;
     --special-font: "Avory I Latin" Helvetica Arial;
     --main-font: "Myriad Pro" Helvetica Arial;
-    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+    --heading-font: "Fieldwork Hum bold" Helvetica Arial; 
     }
 
     .darkmode {
@@ -40,7 +35,7 @@
     --main-dark-color: #FFF8F0;
     --special-font: "Avory I Latin" Helvetica Arial;
     --main-font: "Myriad Pro" Helvetica Arial;
-    --heading-font: "Fieldwork Hub" Helvetica Arial; 
+    --heading-font: "Fieldwork Hum bold" Helvetica Arial; 
   }
 
 
@@ -87,16 +82,16 @@
             padding: 1rem;
         }
 
-
     </style>
 </head>
 
 <body>
+
     <header class="sticky-top">
         <div class="container">
         <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg">
             <div class="container-fluid align-items-center">
-                    <a class="navbar-brand" href="#"><img class="img-fluid" src="imgs/logo.png"></a>
+                    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="imgs/logo.png" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                     </button>
@@ -122,8 +117,21 @@
               </button>
         </nav>
     </div>
-    </header>
 
+    <div class="toast position-absolute top-0"  role="alert" aria-live="assertive" aria-atomic="true" id="toast-win">
+        <header class="toast-header justify-content-between">
+            <strong class="mr-2">Congrats! </strong>
+            <button id="toast-win-close" type="button" class="close ml-auto mb-2" data-dismiss="toast" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </header>
+        <div class="toast-body">
+          
+          <p> You're invited to our next event.</p><p> Register <a href="social.html" aria-label="link to social page">HERE</a></p>
+        </div>
+
+    </div>   
+    </header>
 
     <div class="container">
      <aside class = "container"> 
@@ -142,54 +150,57 @@
     </aside>
         
         <main class = "container">
-            <div class="home-about row">
-                <div class="who col-4">
+
+            
+           <div class="home-about row">
+                <div class="who col-lg-4 col-sm-12">
                     <h2><u>WHO WE ARE</u></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
                 </div>
         
-                <div class="what col-4">
+                <div class="what col-lg-4 col-sm-12">
                     <h2><u>WHAT WE ARE</u></h2>
                     
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
         
-                <div class="how col-4">
+                <div class="how col-lg-4 col-sm-12">
                     <h2><u>HOW WE CAN HELP</u></h2>
                     
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 
                 </div>
             </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-        </script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
         <script src="js/darkmode.js"></script>
+        <script src="js/toastwin.js"></script>
     </main>
 
     </div>
 
+
     <footer class="container align-items-center">
         <div class="row justify-content-center align-items-center">
-            <div class="col-4 align-items-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 align-items-center">
                 <p><a href="contact.php" target="_blank"> Contact Us</a><small> &copy; 2021-
                 <?=date('Y')?> <a href="mailto:1306homebase@gmail.com">All Rights Reserved</a>
             </small></p>
             </div>
-                <div class="badge col-1">
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
                     <a href="social.html"><i class="fab fa-instagram"></i></a>
                 </div>
-                <div class="badge col-1">
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
                     <a href="social.html"><i class="fab fa-github"></i></a>
                 </div>
-                <div class="badge col-1">
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
                     <a href="social.html"><i class="fab fa-twitter-square"></i></a>
                 </div>
-                <div class="badge col-1">
+                <div class="badge col-lg-1 col-md-2 col-sm-3">
                     <a href="social.html"><i class="fab fa-meetup"></i></a>
                 </div>
-        <div class="clock container col-2">
+        <div class="clock container col-lg-2 col-md-4 col-sm-4">
             <div class="row justify-content-evenly align-items-center">
                     <p class = "col-1" id="minutes"></p>
                     <p class = "col-1">:</p>
