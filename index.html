@@ -84,11 +84,25 @@
             padding: 1rem;
         }
 
-
     </style>
 </head>
 
 <body>
+
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="toast-win">
+        <header class="toast-header justify-content-between">
+            <strong class="mr-2">Congrats! </strong>
+            <button id="toast-win-close" type="button" class="close ml-auto mb-2" data-dismiss="toast" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </header>
+        <div class="toast-body">
+          
+          <p> You're invited to our next event.</p><p> Register <a href="social.html" aria-label="link to social page">HERE</a></p>
+        </div>
+
+      </div>
+      
     <header class="sticky-top">
         <div class="container">
         <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg">
@@ -121,7 +135,6 @@
     </div>
     </header>
 
-
     <div class="container">
      <aside class = "container"> 
         <section class="row">
@@ -139,20 +152,22 @@
     </aside>
         
         <main class = "container">
-            <div class="home-about row">
-                <div class="who col-4">
+
+            
+           <div class="home-about row">
+                <div class="who col-4 col-sm-12">
                     <h2><u>WHO WE ARE</u></h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
                 </div>
         
-                <div class="what col-4">
+                <div class="what col-4 col-sm-12">
                     <h2><u>WHAT WE ARE</u></h2>
                     
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
         
-                <div class="how col-4">
+                <div class="how col-4 col-sm-12">
                     <h2><u>HOW WE CAN HELP</u></h2>
                     
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -163,30 +178,32 @@
         </script>
         <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
         <script src="js/darkmode.js"></script>
+        <script src="js/toastwin.js"></script>
     </main>
 
     </div>
 
+
     <footer class="container align-items-center">
         <div class="row justify-content-center align-items-center">
-            <div class="col-4 align-items-center">
+            <div class="col-4 col-md-4 col-sm-12 align-items-center">
                 <p><a href="contact.php" target="_blank"> Contact Us</a><small> &copy; 2021-
                 <?=date('Y')?> <a href="mailto:1306homebase@gmail.com">All Rights Reserved</a>
             </small></p>
             </div>
-                <div class="badge col-1">
+                <div class="badge col-1 col-md-1 col-sm-3">
                     <a href="social.html"><i class="fab fa-instagram"></i></a>
                 </div>
-                <div class="badge col-1">
+                <div class="badge col-1 col-md-1 col-sm-3">
                     <a href="social.html"><i class="fab fa-github"></i></a>
                 </div>
-                <div class="badge col-1">
+                <div class="badge col-1 col-md-1 col-sm-3">
                     <a href="social.html"><i class="fab fa-twitter-square"></i></a>
                 </div>
-                <div class="badge col-1">
+                <div class="badge col-1 col-md-1 col-sm-3">
                     <a href="social.html"><i class="fab fa-meetup"></i></a>
                 </div>
-        <div class="clock container col-2">
+        <div class="clock container col-2 col-md-6 col-sm-12">
             <div class="row justify-content-evenly align-items-center">
                     <p class = "col-1" id="minutes"></p>
                     <p class = "col-1">:</p>

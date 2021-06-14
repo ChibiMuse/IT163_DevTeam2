@@ -1,43 +1,44 @@
-body {
-  background-color: var(--main-bg-color);
+:root{
+  --main-bg-color: #372248;
+  --main-light-color: #FFF8F0;
+  --main-accent-color: #F46036;
+  --secondary-accent-color: #FF8811;
+  --main-dark-color: #171123;
+  --special-font: "Avory I Latin" Helvetica Arial;
+  --main-font: "Myriad Pro" Helvetica Arial;
+  --heading-font: "Fieldwork Hum bold" Helvetica Arial; 
+  }
+
+  .darkmode {
+  --main-bg-color: #FFF8F0;
+  --main-light-color: #372248;;
+  --main-accent-color: #FF8811;
+  --secondary-accent-color: #F46036;
+  --main-dark-color: #FFF8F0;
+  --special-font: "Avory I Latin" Helvetica Arial;
+  --main-font: "Myriad Pro" Helvetica Arial;
+  --heading-font: "Fieldwork Hum bold" Helvetica Arial; 
 }
 
-footer p {
-  margin: 1em;
+.toast-body > p
+{
+  line-height: 0em;
+  text-align: center;
 }
 
-
-li.nav-item{
-  margin: 2rem;
+.toast-body > p > a {
+  color: var(--main-accent-color);
+  text-decoration: none;
 }
 
-.nav-link {
-  color: var(--main-light-color);
+.toast-body > p > a:link {
+  color: var(--main-accent-color);
+  text-decoration: none;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-  background-color: var(--main-accent-color);
-}
-
-.nav-pills .nav-link.active:hover {
-  background-color: var(--secondary-accent-color);
-  
-}
-
-.nav-link:focus,
-.nav-link:hover {
+.toast-body > p > a:hover {
   color: var(--secondary-accent-color);
-}
-
-button.navbar-toggler:hover{
-  background-color: var(--secondary-accent-color);
-}
-
-button.navbar-toggler{
-  background-color: var(--main-accent-color);
-  margin-right: 5rem;
-  padding: 1rem;
+  text-decoration: none;
 }
 
 /* -------------- HEADER CSS --------------- */
@@ -52,12 +53,12 @@ header > i {
   justify-content: center;
 }
 
-button > i {
+nav > button > i {
   color: var(--main-light-color);
   font-size: 1.5rem;
 }
 
-button {
+nav > button {
   position: absolute;
   right: 0;
   top: 1rem;
