@@ -5,6 +5,7 @@
 var elN = document.getElementById('name');
 var elE = document.getElementById('email');
 var elF = document.getElementById('feedback');
+var elSend = document.getElementById('send-btn');
 
 // want to blur input feilds
 elN.addEventListener('blur', checkName);
