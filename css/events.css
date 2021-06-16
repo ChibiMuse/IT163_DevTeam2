@@ -87,6 +87,18 @@ line-height: 30px;
 padding: 25px;
 }
 
+#locator2 {
+  color: var(--main-light-color);
+}
+
+#geo-button {
+  color: var(--main-light-color);
+  background: var(--main-accent-color);
+}
+
+#geo-button:hover {
+  background-color: var(--secondary-accent-color);
+}
 
 .fa-instagram{
   color: var(--main-bg-color);

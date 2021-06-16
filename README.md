@@ -17,9 +17,18 @@ CleanUp  (6/7 - 6/15) - Testing, bug fixes, and general smoothing out of pages. 
 Project Available at GitHub: https://github.com/ChibiMuse/IT163_DevTeam2
 Visual Design/Wireframes for comparison: https://www.figma.com/file/UwCpj5lqdR9M5ri3kVpLXt/it163-Spr-21--Final-Website---Hill%2C-Smith%2C-Lui?node-id=92%3A93
 
+Scope: We designed an organization site to inform the public about a group of technically skilled individuals who use their tech skills for projects to help their communities. Focus is on education and outreach.
+The user can engage with members, ask questions, access resources, locate upcoming events, etc. Project meets HTML and CSS requirements and includes the following Javascript requirements:
+- toggle for theme colors that stays w/ the user throughout the session (no matter the page)
+- timer for page
+- a 1 in 10 chance of being invited to register for the next event on the main page.
+- a fillable and validated contact form
+- an interactive calendar
+- geolocation.
+
 In the end, we surprised ourselves and created a website that managed to match our visual design and should mark off all functional requirements according to spec.
-We each had varying experiences and grew in our understanding of Figma, GitHub/git, Bootstrap, and communication/working together as a team.
-We had a couple set-backs of varying magnitudes of difficulty, but pushed through them and came up with a product inspite of the loss of data and work.
+We each had varying experiences and grew in our understanding of Figma, GitHub/git, Bootstrap, Javascript and communication/working together as a team.
+We had a couple set-backs of varying magnitudes of difficulty, but while we lost time, in the end we gained more experience and learning opportunities and still achieved our goals.
 
 
 ## DUE DATE: June 16th
