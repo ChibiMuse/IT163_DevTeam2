@@ -5,6 +5,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A social gathering and inspiration place for technically skilled individuals to team up for community centered projects.">
+    <meta name="keywords" content="tech4good, tech, technology, social, events, learning, collaboration, programming, coding, programmer">
+    <meta name="author" content="Team Project by Kelly H, Jordan L, and Megan S">
+    <meta name="Robots" content="noindex, nofollow">
 
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Myriad+Pro&display=swap" rel="stylesheet" />
@@ -89,12 +93,12 @@
 <body>
     <header class="sticky-top">
         <div class="container">
-            <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg">
-                <div class="container-fluid align-items-center">
-                        <a class="navbar-brand" href="index.html"><img class="img-fluid" src="imgs/logo.png" alt="logo"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-                        </button>
+        <nav class="navbar nav-pills navbar-expand-md navbar-expand-lg">
+            <div class="container-fluid align-items-center">
+                    <a class="navbar-brand collapse navbar-collapse" href="index.html"><img class="img-fluid" src="imgs/logo.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                             <li class="nav-item">
@@ -137,14 +141,14 @@
         <div class="contact-form-area">
             <div class="contact-form">
         
-        <form action="#">
+        <form class="needs-validation" action="#" novalidate>
             
-                <input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Name" required><br>
-                <input class="margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Title" required>
-                <input class="margin-top-lb-30 margin-top-sb-30" type="email" placeholder="Enter your email" required>
+                <input id="name" class="form-control margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Name" required><br>
+                <input id="title" class="form-control margin-top-lb-30 margin-top-sb-30" type="text" placeholder="Title" required>
+                <input id="email" class="form-control margin-top-lb-30 margin-top-sb-30" type="email" placeholder="Enter your email" required>
               
                 <div class="checks">
-                <h3>What are your interest?</h3>
+                <h3>What are your interests?</h3>
                   
              
                         <input class="checkbox" type="checkbox" name="checkbox-1" id="checkbox-1"><label for="checkbox-1">Learning About Us</label>
@@ -153,25 +157,42 @@
         
                         <input type="checkbox" name="checkbox-3" id="checkbox-3"><label for="checkbox-3">Getting Involved</label>
         
-                        <input type="checkbox" name="checkbox-4" id="checkbox-4"><label for="checkbox-4">Somthing Different</label>
-        
-                        <input type="checkbox" name="checkbox-5" id="checkbox-5"><label for="checkbox-5">Local Gatherings</label>
-        
+                        <input type="checkbox" name="checkbox-4" id="checkbox-4"><label for="checkbox-4">Something Different</label>
+                
                    
                 </div>
                         
-                    <textarea placeholder="What's up?" spellcheck="false"></textarea>
-                
+                    <textarea id="feedback" placeholder="What's up?" spellcheck="false"></textarea>
+                <div class="send-btn">
+                        <button class= "btn" type="submit" id="formsend">Send Me</button>
+                </div>
             </form>
-            <div class="send-btn">
-                    <input type="submit" value="send me" id="formsend">
-            </div>
+
                 </div>
             </div>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
             <script src="js/darkmode.js"></script>
             <script src="https://kit.fontawesome.com/b0a0ea17a8.js" crossorigin="anonymous"></script>
-
+            <script>
+                (function () {
+                  'use strict'
+                
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.querySelectorAll('.needs-validation')
+                
+                  // Loop over them and prevent submission
+                  Array.prototype.slice.call(forms)
+                    .forEach(function (form) {
+                      form.addEventListener('submit', function (event) {
+                        if (!form.checkValidity()) {
+                          event.preventDefault()
+                          event.stopPropagation()
+                        }
+                
+                        form.classList.add('was-validated')
+                      }, false)
+                    })
+                })()</script>
 
             <footer class="container align-items-center">
                 <div class="row justify-content-center align-items-center">

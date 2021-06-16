@@ -63,7 +63,7 @@ label   {
 	border: 5px solid var(--main-accent-color);
 	padding: 20px;
 	margin: auto;
-	color: var(--main-light-color);
+	color: var(--main-dark-color);
 }
 
 .contact-form-area input[type='email'] {
@@ -75,7 +75,7 @@ label   {
     padding: 20px;
     margin: auto;
 	margin-top: 20px;
-    color: var(--main-light-color);
+    color: var(--main-dark-color);
 
 }
 
@@ -86,7 +86,7 @@ label   {
     border: 5px solid var(--main-accent-color);
     padding: 20px;
 	margin: auto;
-    color: var(--main-light-color);
+    color: var(--main-dark-color);
 	margin-top: 20px;
 }
  h3	{
@@ -119,6 +119,6 @@ label   {
 }
 
 #formsend:hover {
-	background: var(--main-accent-color);
+	background: var(--secondary-accent-color);
 
 }
