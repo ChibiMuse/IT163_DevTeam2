@@ -66,6 +66,10 @@ nav > button {
   top: 1rem;
 }
 
+a .navbar-brand, a .navbar-collapse{
+  width:fit-content;
+}
+
 /* -------------- FOOTER CSS --------------- */
 
 footer {
